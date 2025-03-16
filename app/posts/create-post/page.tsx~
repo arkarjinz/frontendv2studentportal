@@ -1,0 +1,14 @@
+// pages/index.tsx
+import React from 'react';
+import TinyMCEEditor from './TinyMCEEditor'
+
+const Home: React.FC = () => {
+    return (
+        <div className="container mx-auto">
+            <h1>TinyMCE Editor</h1>
+            <TinyMCEEditor />
+        </div>
+    );
+};
+
+export default Home;
